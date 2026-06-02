@@ -1,5 +1,5 @@
-import { Outlet, Navigate } from 'react-router';
-import { useGameStore } from '../store/gameStore';
+import { Outlet, Navigate } from "react-router";
+import { useGameStore } from "../store/gameStore";
 
 export function AuthLayout() {
   const isAuthenticated = useGameStore((state) => state.isAuthenticated);
