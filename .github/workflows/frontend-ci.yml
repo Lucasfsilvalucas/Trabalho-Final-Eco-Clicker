@@ -1,0 +1,31 @@
+name: Frontend CI
+
+on:
+  push:
+    branches:
+      - main
+      - Develop
+      - bugfix/reorganizacao-estrutura
+  pull_request:
+    branches:
+      - main
+      - Develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Gerar build do frontend
+        run: npm run build
