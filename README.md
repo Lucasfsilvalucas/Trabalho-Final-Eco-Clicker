@@ -4,10 +4,10 @@
 **Nome do Projeto: Eco Clicker**
 
 **Nome dos Integrantes:**
-Rafaele
-Marcelo
-Sálua
-Lucas Fidelis da Silva
+Maria Rafaele Gomes de Araújo - 2618240 - rafaellelavignee-lab
+Marcelo Feliciano Figueiredo - 2110871 - Marcelofigdev
+Salua Rayane Melo - 2522715 - saluarayane
+Lucas Fidelis da Silva - 2422728 -Lucasfsilvalucas
 
 **Tecnologias:**
 Tecnologias do Projeto EcoClicker
